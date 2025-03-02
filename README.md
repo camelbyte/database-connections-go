@@ -1,23 +1,20 @@
-#This repo provides a demonstration on how to connect to the MongoDB database server and create a table. 
+<h1>MySQL and MondoDB</h1>
 
-<p>it stores data in a flexible, JSON-like format called BSON. This allows for dynamic schemas, 
-  meaning documents in the same collection can have different structures. MongoDB is widely used for its scalability, 
-  high performance, and ability to handle large volumes of unstructured data.
-
-<h3>This repo will demonstrate how to:</h3>
-
-  1. Connect to your database using Golang.
+<h3>I created this repo to showcase the differences between newer, non-relational database technology, and standard MySQL database technolgy,the ladder having been in use for decades now.</h3>
 
 
-  2. Create a table.
+#
 
 
-  3. Insert a record
+<h2> Which DB tech is most likely to disrupt the industry?</h2>  
+
+Not all of them are going to find their place in this new world of AI and ML. But more and more of them are beginning to serve a specific purpose, like Redis and MondoDB for IoT, sensors or edge devices, even live streaming data.
+
+<b>Some topics to explore:</b>
+
+<li>Redis Cache and what it uses to make database speed/transaction-efficency that surpass the rest. (IoT, edge devices, Content delivery networks)
+<li>MongoDB documents, collections, steaming real-time data. (real-time visualizations and streaming, IoT, edge devices, automation) 
+<li></lio>SQLite for handling large amounts of string data. (maybe best for blogs and article writing)
 
 
-  Document (MongoDB) : In MongoDB, data is stored in documents, which are JSON-like structures. Here’s how the terminology compares to relational databases:
-  
-  Record (Relational Database) ~ A document is an individual data entry stored in a collection, similar to a row in a table.
-  
-  Field (MongoDB) ≈ Column (Relational Database)
-        A field is a key-value pair inside a document, similar to a column in a row.
+<em>This repo is a work in progress. The end goal is many db connector scripts for many DB technologies in many different languages.</em>
